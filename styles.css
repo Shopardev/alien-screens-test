@@ -1,27 +1,48 @@
-.alien_thumb {
-  position: relative;
+body {
+  margin: 0;
+  background: #272829;
 }
-.video {
-  width: 100%;
-  position: relative;
-}
-.logos {
+.animation_thumb {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 15%;
-  left: 54%;
-  transform: translate(-15%, -54%);
+}
+.video {
+  /* object-fit: contain; */
+  width: 100%;
+  height: 100vh;
+}
+/* .video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+} */
+.logos {
+  /* width: 2%; */
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 12%;
+  left: 20%;
+  transform: translate(-12%, -20%);
   z-index: 100;
 }
 .qr {
-  width: 20%;
-  position: absolute;
-  top: 64%;
-  left: 83%;
-  transform: translate(-64%, -83%);
-  z-index: 100;
+  margin-top: 14px;
+  width: 94%;
+  /* height: 160%; */
 }
+/* .qr {
+  /* width: 22%;
+  height: 39%; */
+/* position: fixed;
+  top: 65%;
+  /* left: 63.5%; */
+/* margin-left: 76.5%;
+  transform: translate(-60%, -50%);
+  z-index: 100; */
 .border {
   width: 40px;
   height: 0px;
