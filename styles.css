@@ -14,6 +14,8 @@ body {
 
 @media screen and (max-width: 1200px) {
   .video-mobile {
+    object-fit: contain;
+
     width: 100vw;
     height: 100vh;
   }
